@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blanchedalmond;  
+}
+#calculater{
+    font-family: arial,sans-serif;
+    background-color: rgb(74, 60, 60);
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(84, 76, 76);
+    color: black;
+
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);  
+    /* fraction unit one fr indicates to take equal no.of colums */
+    gap:10px;
+    padding: 10px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(103, 145, 145);
+    color: black;
+    font-size:  3rem;
+    font-weight: bold;
+    cursor: pointer;  
+}
+button:hover{
+    background-color:rgb(84, 76, 76); 
+}
+button:active{
+    background-color:rgb(152, 123, 123);
+}
+.calculation-but{
+    background-color: rgb(90, 10, 10);
+}
+.calculation-but:hover{
+    background-color: rgb(233, 207, 207);
+}
+.calculation-but:active{
+    background-color: rgb(229, 170, 170);
+}
